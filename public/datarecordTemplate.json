@@ -1,0 +1,122 @@
+{
+    "globalStats": {
+        "lifeExpFemale": {
+            "yearly": [
+                {
+                    "min": 29.03,
+                    "max": 75.87
+                }
+            ],
+            "min": 27.57,
+            "max": 87.81
+        },
+        "lifeExpMale": {
+            "yearly": [
+                {
+                    "min": 27.44,
+                    "max": 71.5
+                }
+            ],
+            "min": 24.83,
+            "max": 84.1
+        },
+        "lifeExpAll": {
+            "yearly": [
+                {
+                    "min": 28.2,
+                    "max": 73.55
+                }
+            ],
+            "min": 26.17,
+            "max": 85.42
+        },
+        "immunDpt": {
+            "yearly": [
+                {
+                    "min": -1,
+                    "max": -1.0
+                }
+            ],
+            "min": 1.0,
+            "max": 99.0
+        },
+        "gdp": {
+            "yearly": [
+                {
+                    "min": 12012012,
+                    "max": 543300000000
+                }
+            ],
+            "min": 8824448,
+            "max": 21433224697000
+        },
+        "gdpPerCapita": {
+            "yearly": [
+                {
+                    "min": 41,
+                    "max": 3007
+                }
+            ],
+            "min": 13,
+            "max": 189487
+        },
+        "lifeExpSim":  {
+            "AFG": 0.987978305417731,
+            "AGO": 0.9968612785908325,
+            "ALB": 0.998263181855508
+        },
+        "lifeExpPred": 72.81,
+        "immunDptSim": {
+            "AFG": 0.9142050585267189,
+            "AGO": 0.9312408925100752
+        },
+        "gdpSim": {
+            "AFG": 0.9566912627425476,
+            "AGO": 0.9209336903230938,
+            "ALB": 0.9539362841238753
+        },
+        "gdpPred": 2094.69
+    },
+    "geojson": {
+        "type": "FeatureCollection",
+        "features":
+            {
+                "type": "Feature",
+                "properties": {
+                    "ADMIN": "Afghanistan",
+                    "ISO_A3": "AFG",
+                    "region": "Asia",
+                    "lat": 33.0,
+                    "lon": 65.0,
+                    "lifeExpFemale": [
+                        33.31,
+                        33.84
+                    ],
+                    "lifeExpMale": [
+                        31.72,
+                        32.22
+                    ],
+                    "lifeExpAll": [
+                        32.45,
+                        32.96
+                    ],
+                    "immunDpt": [
+                        -1.0,
+                        -1.0
+                    ],
+                    "gdp": [
+                        537777811,
+                        548888896
+                    ],
+                    "gdpPerCapita": [
+                        60,
+                        60
+                    ]
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": []
+                }
+            }
+    }
+}

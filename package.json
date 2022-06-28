@@ -1,0 +1,66 @@
+{
+  "name": "age-poverty",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://gitname.github.io/visual-analytics",
+  "dependencies": {
+    "@deck.gl/mapbox": "^8.7.11",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@turf/turf": "^6.5.0",
+    "@visx/axis": "^2.10.0",
+    "@visx/event": "^2.6.0",
+    "@visx/grid": "^2.10.0",
+    "@visx/group": "^2.10.0",
+    "@visx/legend": "^2.10.0",
+    "@visx/responsive": "^2.10.0",
+    "@visx/scale": "^2.2.2",
+    "@visx/shape": "^2.10.0",
+    "@visx/tooltip": "^2.10.0",
+    "csvtojson": "^2.0.10",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0",
+    "deck.gl": "^8.7.8",
+    "hex-rgb": "^5.0.0",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^2.8.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-map-gl": "^7.0.11",
+    "react-scripts": "5.0.1",
+    "sass": "^1.52.1",
+    "tinycolor2": "^1.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.6.2"
+  }
+}

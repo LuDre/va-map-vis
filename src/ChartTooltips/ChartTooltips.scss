@@ -1,0 +1,11 @@
+.ChartTooltips {
+  &__text {
+    white-space: pre-wrap;
+    text-align: left;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: left;
+  }
+}

@@ -1,0 +1,49 @@
+.InfoPopup {
+  display: absolute;
+  position: relative;
+  z-index: 1;
+  left: 0.5rem;
+  top: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 24rem;
+  height: calc(100vh - 2rem);
+  background: white;
+  border-radius: 10px;
+  border: 1px solid rgb(44, 62, 80);
+
+  &__header {
+    margin: 0.25rem;
+  }
+
+  &__pills {
+    padding: 0 0 0.5rem;
+  }
+  &__other {
+    margin-top: 5px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 3px solid rgb(44, 62, 80);
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1rem;
+    &--first {
+      margin-top: 1.5rem;
+    }
+  }
+
+  &__subheading {
+    margin: 0.125rem;
+  }
+
+  &__close {
+    background-color: white;
+    border: 1px solid rgb(44, 62, 80);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer;
+  }
+}
