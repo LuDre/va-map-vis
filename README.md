@@ -20,7 +20,7 @@ Python was used for data merging and preprocessing. For the frontent app we used
 To run the project locally, clone it in terminal:
 
 ```
-git clone https://github.com/yarynakorduba/visual-analytics.git
+git clone https://github.com/LuDre/va-map-vis.git
 ```
 
 To install the dependencies, run:
