@@ -37,4 +37,4 @@ npm run start
 
 ## Demo
 
-Deployed version can be found under this link: [Demo](https://yarynakorduba.github.io/visual-analytics/)
+Currently not available.
